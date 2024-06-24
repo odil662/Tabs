@@ -1,0 +1,51 @@
+.page {
+  background-color: blue;
+  padding: 30px;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-color: white;
+}
+
+.buttonBlock {
+  display: flex;
+}
+
+button {
+  margin-left: 20px;
+  padding: 10px;
+  height: 40px;
+  text-transform: uppercase;
+  background-color: white;
+  border: none;
+}
+
+.buttonBlock_title-click {
+  border-bottom: 2px solid blue;
+}
+
+.content {
+  margin: 30px;
+}
+
+.contentItem__title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.contentItem__case {
+  display: flex;
+}
+
+.contentItem__text {
+  margin-left: 10px;
+}
+
+.hidden {
+  display: none;
+}
